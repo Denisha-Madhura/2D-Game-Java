@@ -1,0 +1,4 @@
+- **setDefaultCLoseOperation(JFrame.EXIT_ON_CLOSE)**: this lets the window properly close when user clicks the close ("X") button
+- **setPreferredSize(new Dimension(width, height))**: sets the size of this class (JPanel)
+- **setDoubleBuffered(true)**: smoothens the loading of the game
+- **pack()**: causes the window to be sized to fit the preffered size and layouts of its components (=GamePanel)
