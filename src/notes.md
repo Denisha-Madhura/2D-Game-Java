@@ -1,0 +1,11 @@
+- **setDefaultCLoseOperation(JFrame.EXIT_ON_CLOSE)**: this lets the window properly close when user clicks the close ("X") button
+- **setPreferredSize(new Dimension(width, height))**: sets the size of this class (JPanel)
+- **setDoubleBuffered(true)**: smoothens the loading of the game
+- **pack()**: causes the window to be sized to fit the preferred size and layouts of its components (=GamePanel)
+- **super**: it is used to point to the parent class 
+- **Graphics2D**: it extends the Graphics class to provide more sophisticated control over geometry, coordinate transformation, color management and text layout
+- **dispose()**: dispose of the graphics context and release any system resource that it is using
+- **KeyListener()**: The listener interface for receiving keyboard events (keystrokes)
+- **getKeyCode()**: returns the integer keyCode associated with the key in this event
+- **setFocusable(true)**: with this, the GamePanel can be "focused" to recieve the key input
+- 
