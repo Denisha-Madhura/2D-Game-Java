@@ -2,12 +2,12 @@ package main;
 
 import javax.swing.*;
 
-public class main {
+public class Main {
     public static void main(String[] args){
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
-        window.setTitle("Blue boy adventure");
+        window.setTitle("Sora's Shore");
 
         GamePanel gamePanel = new GamePanel();
         window.add(gamePanel);
