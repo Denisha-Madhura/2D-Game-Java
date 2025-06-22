@@ -66,7 +66,6 @@ public class GamePanel extends JPanel implements Runnable{
                 throw new RuntimeException(e);
             }
 
-
         }
     }
 

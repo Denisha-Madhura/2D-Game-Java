@@ -8,4 +8,4 @@
 - **KeyListener()**: The listener interface for receiving keyboard events (keystrokes)
 - **getKeyCode()**: returns the integer keyCode associated with the key in this event
 - **setFocusable(true)**: with this, the GamePanel can be "focused" to recieve the key input
-- 
+- **Buffered Image**: It describes an image with an accessible buffer of image data (We use this to store image files)
